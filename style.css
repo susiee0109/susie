@@ -33,7 +33,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 60px;
-    background-color: #E6EDE6;
+    background-color: #FFFFE3;
 }
 
 .logo img {
@@ -50,12 +50,12 @@ nav ul {
 nav a {
     font-weight: 900;
     font-size: 24px;
-    color: #6E8B71;
+    color: #000000;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #3d5a4c;
+    color: #ffffff;
 }
 
 /* Hero Section */
@@ -64,7 +64,7 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     padding: 0px 60px;
-    background-color: #f5f3ed;
+    background-color: #FFFFE3;
     position: relative;
 }
 
@@ -80,21 +80,21 @@ nav a:hover {
     transform: translateY(-50%);
     font-size: 30px;
     font-weight: 900;
-    color: #384538;
+    color: #000000;
     line-height: 1;
 }
 
 /* About Section */
 .about {
     padding: 80px 60px;
-    background-color: #f5f3ed;
+    background-color: #FFFFE3;
 }
 
 .about h2 {
     text-align: center;
     font-size: 36px;
     margin-bottom: 30px;
-    color: #384538;
+    color: #000000;
     font-weight: 700;
 }
 
@@ -103,7 +103,7 @@ nav a:hover {
     max-width: 800px;
     margin: 0 auto 60px;
     font-size: 15px;
-    color: #666;
+    color: #000000;
     line-height: 1.8;
 }
 
@@ -116,7 +116,7 @@ nav a:hover {
 }
 
 .about-card {
-    background-color: #fff;
+    background-color: #FFFFE3;
     padding: 30px 25px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
@@ -125,7 +125,7 @@ nav a:hover {
 .about-card h3 {
     font-size: 18px;
     margin-bottom: 20px;
-    color: #333;
+    color: #000000;
     font-weight: 600;
 }
 
@@ -137,7 +137,7 @@ nav a:hover {
 
 .about-card li {
     font-size: 14px;
-    color: #666;
+    color: #000000;
     padding-left: 12px;
     position: relative;
 }
@@ -146,20 +146,20 @@ nav a:hover {
     content: "•";
     position: absolute;
     left: 0;
-    color: #3d5a4c;
+    color: #000000;
 }
 
 /* Project Section */
 .project {
     padding: 80px 60px;
-    background-color: #f5f3ed;
+    background-color: #FFFFE3;
 }
 
 .project h2 {
     text-align: center;
     font-size: 36px;
     margin-bottom: 60px;
-    color: #384538;
+    color: #000000;
     font-weight: 700;
 }
 
@@ -172,7 +172,7 @@ nav a:hover {
 }
 
 .project-item figure {
-    background-color: #fff;
+    background-color: none;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -193,21 +193,21 @@ nav a:hover {
     padding: 20px;
     text-align: center;
     font-size: 15px;
-    color: #666;
-    background-color: #fff;
+    color: #000000;
+    background-color: #FFFFE3;
 }
 
 /* Contact Section */
 .contact {
     padding: 80px 60px;
-    background-color: #f5f3ed;
+    background-color: #FFFFE3;
 }
 
 .contact h2 {
     text-align: center;
     font-size: 36px;
     margin-bottom: 30px;
-    color: #384538;
+    color: #000000;
     font-weight: 700;
     
 }
@@ -215,7 +215,7 @@ nav a:hover {
 .contact-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: #fff;
+    background-color: #FFFFE3;
     border-radius: 8px;
     padding: 20px;
     gap: 100px;
@@ -226,7 +226,7 @@ nav a:hover {
 .contact-item h3 {
     font-size: 18px;
     margin-bottom: 15px;
-    color: #333;
+    color: #000000;
     font-weight: 600;
 }
 
@@ -238,7 +238,7 @@ nav a:hover {
 
 .contact-item li {
     font-size: 14px;
-    color: #666;
+    color: #000000;
     padding-left: 12px;
     position: relative;
 }
@@ -247,11 +247,11 @@ nav a:hover {
     content: "•";
     position: absolute;
     left: 0;
-    color: #3d5a4c;
+    color: #000000;
 }
 
 .contact-item a {
-    color: #3d5a4c;
+    color: #000000;
     transition: opacity 0.3s;
 }
 
@@ -261,11 +261,11 @@ nav a:hover {
 
 /* Footer */
 footer {
-    background-color: #3d5a4c;
-    color: rgba(255, 255, 255, 0.6);
+    background-color: #FFFFE3;
+    color: rgba(0, 0, 0, 0.6);
     text-align: left;
     padding: 30px 60px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 /* Responsive Design */
